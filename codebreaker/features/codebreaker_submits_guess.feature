@@ -27,7 +27,7 @@ Feature: code-breaker submits a guess
       | 1234 | 5234  | +++  |
       | 1234 | 5134  | ++-  |
       | 1234 | 5124  | +--  |
-      | 1234 | 5123  | +++  |
+      | 1234 | 5123  | ---  |
     Scenarios: all numbers correct
       | code | guess | mark |
       | 1234 | 1234  | ++++ |
