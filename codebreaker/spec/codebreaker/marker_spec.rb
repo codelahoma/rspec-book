@@ -63,7 +63,6 @@ module Codebreaker
 
       context "with 1 exact match duplicate in guess" do
         it "returns 0" do
-          pending('refactor number_match_count')
           marker = Marker.new('1234', '1155')
           marker.number_match_count.should == 0
         end
